@@ -1,0 +1,17 @@
+{
+  "name": "atomlauncher",
+  "version": "0.0.0",
+  "description": "atomlauncher",
+  "main": "app.js",
+  "author": "",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@etclabscore/dl-github-releases": "^1.1.0",
+    "adm-zip": "^0.4.14",
+    "electron": "^8.1.1",
+    "jquery": "^3.4.1"
+  }
+}

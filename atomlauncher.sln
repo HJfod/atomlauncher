@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "atomlauncher", "atomlauncher.njsproj", "{EEEA3826-1335-4C11-9B72-8585A87EA642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEEA3826-1335-4C11-9B72-8585A87EA642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEA3826-1335-4C11-9B72-8585A87EA642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEA3826-1335-4C11-9B72-8585A87EA642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEA3826-1335-4C11-9B72-8585A87EA642}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED43F317-5527-423A-821C-63D44B5C91EC}
+	EndGlobalSection
+EndGlobal

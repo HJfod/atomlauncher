@@ -1,0 +1,71 @@
+:root {
+    --main-color:               #000;
+    --extra-color:              #f0a;
+    --dark-color:               #444;
+    --darker-color:             #222;
+    --light-color:              #030303;
+    --shadow-color:             rgba(255,255,255,0.2);
+    --text-color:               #fff;
+    --font:                     Segoe UI Light;
+    --transition-time:          0.1s;
+    --text-size:                16px;
+    --padding:                  6px;
+    
+    --div-size:                 50px;
+    --div-margin:               10px;
+}
+
+body {
+
+}
+
+.apps-container {
+    width: 100%;
+}
+
+.app {
+    width: var(100% - (var(--div-margin) * 2));
+    height: var(--div-size);
+    background-color: rgba(0,0,0,0);
+    transition-duration: var(--transition-time);
+    display: flex;
+    padding: var(--div-margin);
+}
+
+.app-name-text {
+    margin-top: calc( (var(--div-size) / 2) - var(--div-margin));
+    width: 100%;
+}
+
+.app-name-status {
+    margin-right: var(--div-margin);
+    margin-left: auto;
+    margin-top: calc( (var(--div-size) / 2) - var(--div-margin));
+}
+
+.app-type-text {
+    position: absolute;
+    margin-top: calc( (var(--div-size)) - var(--div-margin));
+    font-size: calc( var(--div-size) / 5 );
+}
+
+.app-type-text.software {
+    color: #faa;
+}
+
+.app-type-text.tool {
+    color: #afa;
+}
+
+.app-type-text.game {
+    color: #aaf;
+}
+
+.launch-button {
+    margin-left: auto;
+    margin-right: var(--padding);
+}
+
+.app:hover {
+    background-color: var(--darker-color);
+}

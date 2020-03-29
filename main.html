@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Atom Launcher</title>
+    <script src='scripts/main.js' defer></script>
+    <link rel="stylesheet" href="scripts/main.css" />
+</head>
+<body>
+
+    <app-settings app-name="Atom Launcher" text-color="var(--text-color)" font="var(--font)" main-color="var(--main-color)" extra-color="var(--extra-color)" shadow-color="var(--shadow-color)" dark-color="var(--dark-color)" darker-color="var(--darker-color)"></app-settings>
+
+    <app-titlebar name="Atom Launcher" background-color="var(--darker-color)" text-color="var(--text-color)"></app-titlebar>
+
+    <app-main>
+
+        <app-group direction="top-down">
+            
+            <app-panel size="30px" min-size="30px" style="background-color: var(--light-color)">
+                
+                <app-tabs tab-height="24px" destination="main-pages" text-color="var(--text-color)">
+                    <app-tab link="install" name="Installed" default></app-tab>
+                    <app-tab link="download" name="Available"></app-tab>
+                    <app-tab link="store" name="Store"></app-tab>
+                </app-tabs>
+
+            </app-panel>
+
+            <app-panel>
+
+                <app-pages from="main-pages">
+                    <app-page link="install">
+                        <div class="apps-container">
+                            <text>Installed apps</text>
+                            <div id="apps-installed"></div>
+                        </div>
+                    </app-page>
+                    <app-page link="download">
+                        <div class="apps-container">
+                            <text>Downloadable apps</text>
+                            <div  id="apps-download"></div>
+                        </div>
+                    </app-page>
+                    <app-page link="store">
+                        <p>store</p>
+                    </app-page>
+                </app-pages>
+
+            </app-panel>
+
+            <app-panel size="30px" min-size="30px" style="background-color: var(--light-color)">
+
+                <text id="status"></text>
+
+            </app-panel>
+
+        </app-group>
+
+    </app-main>
+
+</body>
+</html>
