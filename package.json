@@ -11,7 +11,7 @@
   "dependencies": {
     "@etclabscore/dl-github-releases": "^1.1.0",
     "adm-zip": "^0.4.14",
-    "electron": "^8.1.1",
+    "electron": "^8.2.4",
     "jquery": "^3.4.1"
   }
 }
